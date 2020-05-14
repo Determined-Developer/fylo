@@ -1,4 +1,4 @@
-
+/* 
 # Front-end Style Guide
 
 ## Layout
@@ -21,7 +21,7 @@ The designs were created to the following widths:
 
 - Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
 - Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
-/* 
+
 ### Neutral
 
 - White: hsl(0, 0%, 100%)
@@ -70,13 +70,19 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;padding-left: 30px;
-  padding-right: 10px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 80px;
+    padding-top: 73px;
     
 }
 
 .logo {
   display: inline-block;
+}
+
+.logo images {
+  
 }
 
 .nav-links {
@@ -86,7 +92,7 @@ nav {
 
 .nav-item a {
   display: inline-block;
-  padding: 20px 15px;
+  padding: 20px 26px;
   text-decoration: none;
   color: white;
 }
@@ -100,6 +106,24 @@ nav {
 }
 
 .logo img {
-  width: 175px;
+  width: 179px;
+  height: 52px;
+  margin-left: 80px;
   vertical-align: middle;
+}
+
+<!--BODY-->
+
+.box.flex {
+display: flex;
+justify-content: center;
+}
+
+.box {
+  margin-top: 47px;
+  height: 300px;
+}
+
+.box p {
+  text-align: center;
 }
